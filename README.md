@@ -6,7 +6,9 @@
   <p align="center">
     Projeto desenvolido por Matheus Teodoro
     <br />
-    <a href="/">Versão web</a>
+    <a href="https://webscraper-frontend-pbgtm7v0o-matheusteodoro01.vercel.app">Versão web Rodando</a>
+    <a href="https://webscraper-back.herokuapp.com/noticias">VBackend Rodando</a>
+  
     ·
  
   </p>
