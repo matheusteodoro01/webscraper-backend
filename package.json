@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "dev": "npx ts-node-dev --respawn --transpile-only --debug ./src/index.ts"
+    "dev": "npx ts-node-dev --respawn --transpile-only --debug ./src/index.ts",
+    "start": "npx ts-node-dev --respawn --transpile-only --debug ./src/index.ts"
   },
   "author": "",
   "license": "ISC",
