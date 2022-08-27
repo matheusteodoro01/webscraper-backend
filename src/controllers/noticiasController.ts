@@ -38,16 +38,8 @@ export default {
                     const resumo = $(element).find('p').text()
                     const link = $(element).find('.link-title').attr('href')
                     const data = $(element).find('.data-posts').text()
-
-
-                    let noticia = {
-                        autor: autor,
-                        titulo: titulo,
-                        resumo: resumo,
-                        link: link,
-                        data: data,
-                     
-                    }
+                    const img = $(element).find('img').attr('data-src-desktop')
+                    let noticia = { autor,titulo, resumo, link, data, img}
                     noticias.push(noticia);
                 })
                 console.log(`Consulta efetuada em ${url}`)
